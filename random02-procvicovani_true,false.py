@@ -12,7 +12,7 @@ print( )
 print( )
 print( )
 print( )
-print(a)
+print( )
 
 if a == True:
     tmp = random.randint  (-1541545145, 45145145141)
