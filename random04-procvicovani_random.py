@@ -12,8 +12,8 @@ print(c)
 d = random_inteager_range = random.uniform(1, 49)
 print(d)
 
-E= random_integer_range = random.uniform(1, 49)
-print(E)
+e = random_integer_range = random.uniform(1, 49)
+print(e)
 
 f = random_inteager_range = random.uniform(1, 49)
 print(f)
