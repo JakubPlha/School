@@ -1,0 +1,27 @@
+body {
+    background-color:yellowgreen 
+}
+
+p {
+    background-color: brown;
+}
+
+h1 a {
+    background-color: rgb(8, 253, 220);
+}
+
+h1 a {
+    color: rgb(255, 0, 225);
+    text-decoration: none;
+    padding: 1ee 1ee 1ee 1ee;
+    display: flex;
+    justify-content: center;
+}
+
+h1 a {
+    color:darkmagenta
+    
+
+}
+
+
