@@ -1,0 +1,69 @@
+body {
+  background-image: url("pozadi.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+form {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid rgb(54, 49, 49);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+label {
+  color : rgb(255, 255, 255);
+    width: 100%;
+    font-size: 140%;
+    display: flex;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+  }
+  
+input {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(74, 67, 67);
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+button {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(23, 219, 30);
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+button:hover {
+    background-color: rgb(6, 247, 255);
+  }
