@@ -1,0 +1,110 @@
+body {
+    background: black;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.universe {
+    width: 1400px;
+    height: 1400px;
+    position: relative;
+}
+
+.star {
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: rgb(255, 255, 196);
+    border-radius: 50%;
+    animation: pulse-effect 5s infinite ease-in-out;
+    box-shadow: 0 0 40px rgb(248, 244, 211);
+}
+
+@keyframes pulse-effect {
+    0%, 100% { transform: translate(-50%, -50%) scale(1); }
+    50% { transform: translate(-50%, -50%) scale(1.2); }
+}
+
+.star:nth-child(1) {
+    top: 33%;
+    left: 10%;
+}
+.star:nth-child(2) {
+    top: 46%;
+    left: 90%;
+}
+.star:nth-child(3) {
+    top: 60%;
+    left: 60%;
+}
+.star:nth-child(4) {
+    top: 80%;
+    left: 30%;
+}
+.sun {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, yellow, orange, red);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: pulse 3s infinite ease-in-out;
+    box-shadow: 0 0 50px yellow;
+}
+@keyframes pulse {
+    0%, 100% { transform: translate(-50%, -50%) scale(1); }
+    50% { transform: translate(-50%, -50%) scale(1.1); }
+}
+.planet {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.mercury {
+    background: radial-gradient(circle, gray, darkgray);
+    animation: orbit1 4s linear infinite;
+}
+.venus {
+    background: radial-gradient(circle, yellow, brown);
+    animation: orbit2 6s linear infinite;
+}
+.earth {
+    background: radial-gradient(circle, deepskyblue, navy);
+    animation: orbit3 8s linear infinite;
+}
+.moon {
+    width: 20px;
+    height: 20px;
+    background: gray;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation: moonOrbit 1.5s linear infinite;
+    transform-origin: -60px center;
+}
+@keyframes orbit1 {
+    from { transform: rotate(0deg) translateX(150px) rotate(0deg); box-shadow: 10px -10px 20px rgba(0, 0, 0, 0.5); }
+    to { transform: rotate(360deg) translateX(150px) rotate(-360deg); box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5); }
+}
+@keyframes orbit2 {
+    from { transform: rotate(0deg) translateX(220px) rotate(0deg); box-shadow: 10px -10px 20px rgba(0, 0, 0, 0.5); }
+    to { transform: rotate(360deg) translateX(220px) rotate(-360deg); box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5); }
+}
+@keyframes orbit3 {
+    from { transform: rotate(0deg) translateX(300px) rotate(0deg); box-shadow: 10px -10px 20px rgba(0, 0, 0, 0.5); }
+    to { transform: rotate(360deg) translateX(300px) rotate(-360deg); box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.5); }
+}
+@keyframes moonOrbit {
+    from { transform: rotate(0deg) translateX(60px) rotate(0deg); }
+    to { transform: rotate(360deg) translateX(60px) rotate(-360deg); }
+}
