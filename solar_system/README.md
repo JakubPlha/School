@@ -27,3 +27,5 @@
 - Přidání dalších planet.
 
 - Interaktivní prvky pro změnu rychlosti oběhu.
+
+![obrázek solárního systému](solarni_system_1.png)
