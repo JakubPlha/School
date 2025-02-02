@@ -2,6 +2,10 @@
 
 - Tento projekt je jednoduchá vizuální simulace sluneční soustavy vytvořená pouze pomocí HTML a CSS. Planety obíhají kolem Slunce a Měsíc obíhá kolem Země.
 
+![obrázek solárního systému](solarni_system_celek.png)
+
+![obrázek měsíce, který obíha Zemi](solarni_system_zeme.png)
+
 ## Funkce
 
 - Slunce ve středu se světelným pulzováním.
@@ -28,4 +32,3 @@
 
 - Interaktivní prvky pro změnu rychlosti oběhu.
 
-![obrázek solárního systému](solarni_system_celek.png)
