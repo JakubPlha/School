@@ -28,4 +28,4 @@
 
 - Interaktivní prvky pro změnu rychlosti oběhu.
 
-![obrázek solárního systému](solarni_system_1.png)
+![obrázek solárního systému](solarni_system_celek.png)
