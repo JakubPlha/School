@@ -32,3 +32,8 @@ projekt/
 - Interaktivní sekce s rozbalovacími informacemi.
 - Grid systém pro přehledné uspořádání kontaktů.
 - Moderní a čistý design s CSS stylováním.
+
+##fotografie
+
+![obrázek hezkého webu stavební společnosti z počítače](images/pc_fotka.jpg) 
+![obrázek hezkého webu stavební společnosti z telefonu](images/telefon_fotka.jpg)
