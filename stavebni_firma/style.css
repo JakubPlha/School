@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    text-align: center;
+    background: #ff0101;
+    color: #fff;
+    padding: 20px 0;
+}
+nav {
+    text-align: center;
+    padding: 10px;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+.section-wrapper {
+    margin-bottom: 40px;
+}
+.section-title {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.sub-sections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.sub-section {
+    flex: 1 1 calc(45% - 20px);
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    transition: max-height 0.5s ease-in-out, padding 0.5s ease-in-out;
+    max-height: 50px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.sub-sections_kontakt{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 100%;
+}
+.sub-section_kontakt {
+    margin: auto;
+    padding: 15px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-height: none;
+}
+.sub-section_kontakt img{
+    width: 70px;
+    height: 50px;
+}
+.sub-section_kontakt span {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+}
+.sub-section:hover {
+    max-height: 300px;
+    padding-bottom: 20px;
+}
+.sub-section img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.arrow {
+    display: block;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #333;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .sub-sections_kontakt {
+        grid-template-columns: 1fr;
+    }
+}
