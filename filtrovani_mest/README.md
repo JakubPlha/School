@@ -1,6 +1,4 @@
-# Ukázka filtrování dat
-
-Tento projekt ukazuje základní práci s HTML, CSS a JavaScriptem.
+# Filtrování
 
 ## Funkce
 
@@ -19,7 +17,7 @@ Stačí otevřít soubor `index.html` v internetovém prohlížeči.
 - `style.css` – vzhled stránky
 - `script.js` – interaktivita (filtrování a odesílání formuláře)
 
-
+## Ukázkový snímek obrazovky z počítače
 ![obrázek hezkého webu filtrování měst z počítače](ukazka.png) 
 
 Pomoc AI ✍️(◔◡◔)
