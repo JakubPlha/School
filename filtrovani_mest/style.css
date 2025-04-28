@@ -1,0 +1,101 @@
+body {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0 20px;
+  }
+  
+  h1, h2 {
+    color: #ffffff;
+    margin-top: 20px;
+  }
+  
+  .menu {
+    margin: 10px 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menu a {
+    color: #ccc;
+    text-decoration: none;
+    padding: 8px 12px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    transition: background-color 0.3s;
+  }
+  
+  .menu a:hover {
+    background-color: #444;
+    text-decoration: underline;
+  }
+  
+  section {
+    margin: 40px 0;
+    padding: 20px;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #555;
+  }
+  
+  thead th {
+    background-color: #333;
+    font-weight: bold;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #2f2f2f;
+  }
+  
+  tbody tr:hover {
+    background-color: #3a3a3a;
+  }
+  
+  input[type="text"], select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0055aa;
+  }
+  
+@media (max-width: 600px) {
+    .menu {
+      flex-direction: column;
+    }
+    table, form {
+      font-size: 14px;
+    }
+  }
+  
