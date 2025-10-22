@@ -32,7 +32,10 @@ END //
 
 DELIMITER ;
 
+-- vše v pohodě zapíše se to do tabulky
 CALL insert_player("David", "Pastrňák", "Boston Bruins");
 
+-- vyhodí to chybu nesmí tam být null
 CALL insert_player("Pavel", "Zacha", NULL);
+
 
