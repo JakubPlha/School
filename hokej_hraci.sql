@@ -19,12 +19,15 @@ BEGIN
         SELECT "Chyba" AS zprava;
     END;
 
+    SET autocommit = 0
     START TRANSACTION;
-
-    INSERT INTO hockeyPlayer (fname, lname, team)
-    VALUES (p_fname, p_lname, p_team);
+        INSERT INTO hockeyPlayer (fname, lname, team)
+        VALUES (p_fname, p_lname, p_team);
 
     COMMIT;
+    SET autocommit = 1
+
+    SELECT "transakce probehla" AS zprava;
 END //
 
 DELIMITER ;
@@ -32,3 +35,4 @@ DELIMITER ;
 CALL insert_player("David", "Pastrňák", "Boston Bruins");
 
 CALL insert_player("Pavel", "Zacha", NULL);
+
