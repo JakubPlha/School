@@ -36,7 +36,6 @@ class Graph:
         print("Ohodnocený:", ohodnoceny)
         print("Obsahuje smyčky:", smycky)
 
-        # Základní kontrola planárnosti
         if len(self.uzly) < 3:
             planarni = True
         elif len(self.hrany) <= 3 * len(self.uzly) - 6:
